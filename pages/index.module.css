@@ -36,6 +36,7 @@
   font-weight: bold;
   color: #202123;
   margin: 16px 0 40px;
+  text-align: center;
 }
 
 .main h2 {
@@ -44,12 +45,14 @@
   font-weight: normal;
   color: #202123;
   margin: 16px 0 40px;
+  text-align: center;
 }
 .main form {
   display: flex;
   flex-direction: column;
   width: 640px;
 }
+
 .main input[type="text"] {
   padding: 12px 16px;
   border: 1px solid #10a37f;
@@ -110,3 +113,10 @@
   bottom: 16px;
   right: 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .about {display: none;}
+  .main form {width: 91.66%;}
+  .result {width: 91.66%;}
+}
+
