@@ -40,8 +40,42 @@ export default function Home() {
     <PlausibleProvider domain="whydoyouwanttoworkhere.com">
       <div>
         <Head>
-          <title>Why do you want to work at Netflix?</title>
+          <title>Why do you want to work here?</title>
           <link rel="icon" href="/work.png" />
+          <meta
+            name="description"
+            content="Generate answers to annoying interview application questions"
+          />
+          <meta
+            property="og:description"
+            content="Generate answers to annoying interview application questions"
+          />
+          <meta
+            property="og:url"
+            content="https://WhyDoYouWantToWorkHere.com"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="Why Do You Want to Work Here?" />
+          <meta
+            property="og:site_name"
+            content="Why do you want to work here?"
+          />
+          <meta
+            property="og:image"
+            content="https://WhyDoYouWantToWorkHere.com/work.png"
+          />
+
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:title" content="Why do you want to work here?" />
+          <meta
+            name="twitter:description"
+            content="Generate answers to annoying interview application questions."
+          />
+          <meta
+            name="twitter:image"
+            content="https://WhyDoYouWantToWorkHere.com/work.png"
+          />
+          <meta name="twitter:image:alt" content="Work logo" />
         </Head>
 
         <main className={styles.main}>
