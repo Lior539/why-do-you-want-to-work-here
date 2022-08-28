@@ -82,6 +82,15 @@ export default function Home() {
           <img src="/work.png" className={styles.icon} />
           <h1>Why do you want to work here?</h1>
           <h2>Generate answers to annoying interview application questions</h2>
+          <div className={styles.about}>
+            by{" "}
+            <a
+              href="https://www.linkedin.com/in/liornn/"
+            >
+              Lior Neu-ner
+            </a>
+          </div>
+
           <form onSubmit={onSubmit}>
             <div className={styles.container}>
               Interview Application Question:

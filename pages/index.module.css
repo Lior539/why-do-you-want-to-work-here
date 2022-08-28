@@ -104,3 +104,9 @@
   width: 640px;
   white-space: "pre-wrap"
 }
+
+.about {
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+}
