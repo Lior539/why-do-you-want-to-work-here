@@ -1,4 +1,4 @@
-# OpenAI API Quickstart - Node.js example app
+# Why Do You Want To Work Here
 
 This is forked from the example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
 

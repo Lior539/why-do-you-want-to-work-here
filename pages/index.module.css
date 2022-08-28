@@ -29,10 +29,19 @@
 .main .icon {
   width: 34px;
 }
-.main h3 {
-  font-size: 32px;
+
+.main h1 {
+  font-size: 40px;
   line-height: 40px;
   font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+
+.main h2 {
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: normal;
   color: #202123;
   margin: 16px 0 40px;
 }
