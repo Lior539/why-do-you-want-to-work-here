@@ -15,8 +15,8 @@ export default async function (req, res) {
     temperature: 0.7,
     max_tokens: 500,
     top_p: 1.0,
-    frequency_penalty: 0.0,
-    presence_penalty: 0.0,
+    frequency_penalty: 0.5,
+    presence_penalty: 0,
   });
   res
     .status(200)
