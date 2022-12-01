@@ -47,6 +47,16 @@
   margin: 16px 0 40px;
   text-align: center;
 }
+
+.main p {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #202123;
+  margin: 2px 0 40px;
+  text-align: center;
+}
+
 .main form {
   display: flex;
   flex-direction: column;

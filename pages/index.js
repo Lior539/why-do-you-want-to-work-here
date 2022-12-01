@@ -82,6 +82,11 @@ export default function Home() {
           <img src="/work.png" className={styles.icon} />
           <h1>Why do you want to work here?</h1>
           <h2>Generate answers to annoying interview application questions</h2>
+          <p>     
+            Looking for a new job? Checkout {' '}
+      <a className="border-b border-[#b5bcce]" href="https://www.remoterocketship.com/">{'Remote Rocketship'}</a>
+      {' '}
+      for over 10,000 remote jobs</p>
           <div className={styles.about}>
             by{" "}
             <a
